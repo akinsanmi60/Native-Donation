@@ -12,7 +12,8 @@
     "commit": "git-cz",
     "check-format": "prettier --check .",
     "check-lint": "eslint . --ext jsx --ext js",
-    "format": "prettier . --write"
+    "format": "prettier . --write",
+    "prepare": "husky install"
   },
   "dependencies": {
     "expo": "~46.0.16",
